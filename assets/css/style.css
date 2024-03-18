@@ -530,62 +530,14 @@ table {
     width: 100%;
 }
 
-.buy-numb:hover,.sell-numb:hover{
+.buy-numb:hover,
+.sell-numb:hover {
     color: var(--btn-color);
     cursor: pointer;
 }
 
-.accordian-svg{
+.accordian-svg {
     cursor: pointer;
-}
-
-@media screen and (max-width: 576px) {
-
-    .timeline-box::after {
-        left: 31px;
-    }
-
-    .container1 {
-        width: 100%;
-        padding-left: 70px;
-        padding-right: 25px;
-    }
-
-    .container1::before {
-        left: 60px;
-        border: medium solid white;
-        border-width: 10px 10px 10px 0;
-        border-color: transparent white transparent transparent;
-    }
-
-    .left::after,
-    .right::after {
-        left: 15px;
-    }
-
-    .right {
-        left: 0%;
-    }
-
-    .content {
-        align-items: start !important;
-    }
-
-    .phasep-1 {
-        text-align: start !important;
-    }
-
-    .content-crass {
-        height: 78px;
-    }
-
-    .counting {
-        width: 72px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: var(--heading-color);
-        color: var(--crass-box-color);
-    }
 }
 
 @media (min-width:320px) {
@@ -666,5 +618,75 @@ table {
 @media (min-width: 1400px) {
     .HadingSection1 {
         font-size: var(--fs-96);
+    }
+}
+
+@media (max-width: 576px) {
+
+    .timeline-box::after {
+        left: 31px;
+    }
+
+    .container1 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .container1::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    .content {
+        align-items: start !important;
+    }
+
+    .phasep-1 {
+        text-align: start !important;
+    }
+
+    .content-crass {
+        height: 78px;
+    }
+
+    .counting {
+        width: 72px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: var(--heading-color);
+        color: var(--crass-box-color);
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-items {
+        display: flex !important;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: olivedrab;
+        align-items: center !important;
+        justify-content: center;
+        left: -100%;
+    }
+
+    .menubar {
+        position: fixed;
+        z-index: 1;
+        right: 4px;
     }
 }

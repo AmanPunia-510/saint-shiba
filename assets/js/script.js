@@ -26,3 +26,8 @@ accord_items.forEach(items => {
         }
     });
 });
+
+// navbar
+
+let navbar = document.querySelector(".navbar-items");
+let menubar = document.querySelector(".menubar");
