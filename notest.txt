@@ -1,0 +1,115 @@
+        <div class="container">
+            <div class="toknmics-card">
+                <div class="row align-items-center px-5 gap-5 gap-lg-0">
+
+                    <div class="col-12 col-lg-4">
+                        <div class="score">
+                            <img src="./assets/images/scrore.png" alt="score" class="score-image w-100">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="sem d-flex flex-column gap-3">
+                            <div class="sam-txt d-flex align-items-center gap-4">
+                                <div class="color-box1 color-box"></div>
+                                <div class="color-txt ff-poppins fs-18 lh-32 heading-color">Sed sem</div>
+                            </div>
+
+                            <div class="sam-txt d-flex align-items-center gap-4">
+                                <div class="color-box2 color-box"></div>
+                                <div class="color-txt ff-poppins fs-18 lh-32 heading-color">Sed sem</div>
+                            </div>
+
+                            <div class="sam-txt d-flex align-items-center gap-4">
+                                <div class="color-box3 color-box"></div>
+                                <div class="color-txt ff-poppins fs-18 lh-32 heading-color">Sed sem</div>
+                            </div>
+
+                            <div class="sam-txt d-flex align-items-center gap-4">
+                                <div class="color-box4 color-box"></div>
+                                <div class="color-txt ff-poppins fs-18 lh-32 heading-color">Sed sem</div>
+                            </div>
+
+                            <div class="sam-txt d-flex align-items-center gap-4">
+                                <div class="color-box5 color-box"></div>
+                                <div class="color-txt ff-poppins fs-18 lh-32 heading-color">Sed sem</div>
+                            </div>
+
+                            <div class="sam-txt d-flex align-items-center gap-4">
+                                <div class="color-box6 color-box"></div>
+                                <div class="color-txt ff-poppins fs-18 lh-32 heading-color">Sed sem</div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="section4-dog">
+                            <img src="./assets/images/section4.png" alt="section-4" class="section4-imageDog w-100">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="container">
+                    <div class="row  position-relative z-2">
+                        <table class="w-100 text-center">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Token</th>
+                                    <th>Percentage</th>
+                                    <th>Token Price</th>
+                                    <th>Token Price</th>
+                                    <th>Total Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="heading-color">Seddigq</td>
+                                    <td>1,00,000</td>
+                                    <td>12%</td>
+                                    <td>58.3</td>
+                                    <td>12%</td>
+                                    <td>10% Monthly</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="heading-color">Seddigq</td>
+                                    <td>1,00,000</td>
+                                    <td>12%</td>
+                                    <td>58.3</td>
+                                    <td>12%</td>
+                                    <td>10% Monthly</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="heading-color">Seddigq</td>
+                                    <td>1,00,000</td>
+                                    <td>12%</td>
+                                    <td>58.3</td>
+                                    <td>12%</td>
+                                    <td>10% Monthly</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="heading-color">Seddigq</td>
+                                    <td>1,00,000</td>
+                                    <td>12%</td>
+                                    <td>58.3</td>
+                                    <td>12%</td>
+                                    <td>10% Monthly</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="heading-color">Seddigq</td>
+                                    <td>1,00,000</td>
+                                    <td>12%</td>
+                                    <td>58.3</td>
+                                    <td>12%</td>
+                                    <td>10% Monthly</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
