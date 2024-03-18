@@ -43,6 +43,7 @@
     --section3-color: #1D1A1A;
     --crass-box-color: #151313;
     --border-color: #444444;
+    --crass-hover: #0C0B0B;
 }
 
 .fs-36 {
@@ -540,6 +541,10 @@ table {
     cursor: pointer;
 }
 
+.content-crass:hover{
+background-color: var(--crass-hover);
+}
+
 @media (min-width:320px) {
     .HadingSection1 {
         font-size: var(--fs-36);
@@ -668,6 +673,11 @@ table {
         background-color: var(--heading-color);
         color: var(--crass-box-color);
     }
+
+    .menubar {
+        height: 40px;
+        width: 35px;
+    }
 }
 
 @media (max-width:992px) {
@@ -685,13 +695,13 @@ table {
         transition: all 400ms linear !important;
     }
 
-    .fix{
+    .fix {
         position: fixed;
         top: 0;
         left: 0;
     }
 
-    .left-0{
+    .left-0 {
         left: 0;
     }
 
