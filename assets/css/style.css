@@ -44,6 +44,14 @@
     --crass-box-color: #151313;
     --border-color: #444444;
     --crass-hover: #0C0B0B;
+
+    --color-box1: #00E396;
+    --color-box2: #F06500;
+    --color-box3: #8B35E2;
+    --color-box4: #00B2FF;
+    --color-box5: #FFA800;
+    --color-box6: #FF4560;
+
 }
 
 .fs-36 {
@@ -295,6 +303,11 @@
     border-radius: 10px;
 }
 
+.reward-card:hover {
+    background: linear-gradient(to right, #ffffff00, #ffffff1a);
+    cursor: pointer;
+}
+
 /* sem color box */
 
 .color-box {
@@ -304,27 +317,27 @@
 }
 
 .color-box1 {
-    background-color: #00E396;
+    background-color: var(--color-box1);
 }
 
 .color-box2 {
-    background-color: #F06500;
+    background-color: var(--color-box2);
 }
 
 .color-box3 {
-    background-color: #8B35E2;
+    background-color: var(--color-box3);
 }
 
 .color-box4 {
-    background-color: #00B2FF;
+    background-color: var(--color-box4);
 }
 
 .color-box5 {
-    background-color: #FFA800;
+    background-color: var(--color-box5);
 }
 
 .color-box6 {
-    background-color: #FF4560;
+    background-color: var(--color-box6);
 }
 
 .part1 {
@@ -448,13 +461,13 @@
 }
 
 /* table */
-thead {
+.thead {
     background-color: var(--section2-color);
     border-left: 1px solid var(--section2-color);
     border-right: 1px solid var(--section2-color);
 }
 
-table thead tr th {
+#table .thead tr th {
     color: var(--heading-color);
     padding-top: 14px;
     padding-bottom: 24px;
@@ -467,7 +480,7 @@ table thead tr th {
     text-wrap: nowrap;
 }
 
-table tbody tr td {
+#table .tbody tr td {
     color: var(--heading-color);
     font-family: var(--fm);
     font-weight: var(--fw-400);
@@ -500,9 +513,15 @@ tr:last-child td:last-child {
     border-bottom-right-radius: 24px;
 }
 
-table {
+#table {
     border-collapse: separate;
     border-spacing: 0;
+}
+
+.glow-image {
+    width: 100%;
+    top: -7%;
+    left: -17%;
 }
 
 /* hover effects */
@@ -540,14 +559,22 @@ table {
     cursor: pointer;
 }
 
-.content-crass:hover{
-background-color: var(--crass-hover);
-cursor: pointer;
+.content-crass:hover {
+    background-color: var(--crass-hover);
+    cursor: pointer;
 }
 
-.content-crass:hover .counting{
+.content-crass:hover .counting {
     background-color: var(--btn-color);
     color: var(--heading-color);
+}
+
+.heading {
+    cursor: pointer;
+}
+
+.shadow-image {
+    bottom: 0;
 }
 
 @media (min-width:320px) {
@@ -574,7 +601,7 @@ cursor: pointer;
     }
 
     .txt1-crass {
-        font-size: 18px;
+        font-size: var(--fs-18);
         line-height: 150%;
     }
 
