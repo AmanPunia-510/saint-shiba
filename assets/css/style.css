@@ -682,7 +682,13 @@ table {
         align-items: center !important;
         justify-content: center;
         left: -100%;
-        transition: all 400ms linear;
+        transition: all 400ms linear !important;
+    }
+
+    .fix{
+        position: fixed;
+        top: 0;
+        left: 0;
     }
 
     .left-0{
