@@ -543,6 +543,12 @@ table {
 
 .content-crass:hover{
 background-color: var(--crass-hover);
+cursor: pointer;
+}
+
+.content-crass:hover .counting{
+    background-color: var(--btn-color);
+    color: var(--heading-color);
 }
 
 @media (min-width:320px) {
