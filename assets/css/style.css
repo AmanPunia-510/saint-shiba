@@ -530,8 +530,9 @@ table {
     width: 100%;
 }
 
-.buy-numb:hover{
+.buy-numb:hover,.sell-numb:hover{
     color: var(--btn-color);
+    cursor: pointer;
 }
 
 @media screen and (max-width: 576px) {
