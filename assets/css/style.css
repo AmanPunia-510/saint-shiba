@@ -530,6 +530,10 @@ table {
     width: 100%;
 }
 
+.buy-numb:hover{
+    color: var(--btn-color);
+}
+
 @media screen and (max-width: 576px) {
 
     .timeline-box::after {
