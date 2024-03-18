@@ -569,7 +569,7 @@ tr:last-child td:last-child {
     color: var(--heading-color);
 }
 
-.heading {
+.heading-svg {
     cursor: pointer;
 }
 
