@@ -535,6 +535,10 @@ table {
     cursor: pointer;
 }
 
+.accordian-svg{
+    cursor: pointer;
+}
+
 @media screen and (max-width: 576px) {
 
     .timeline-box::after {
