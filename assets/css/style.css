@@ -349,7 +349,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: var(--heading-color);
     top: 17px;
     bottom: 106px;
     left: 50%;
@@ -448,7 +448,6 @@
 }
 
 /* table */
-
 thead {
     background-color: var(--section2-color);
     border-left: 1px solid var(--section2-color);
@@ -469,7 +468,7 @@ table thead tr th {
 }
 
 table tbody tr td {
-    color: white;
+    color: var(--heading-color);
     font-family: var(--fm);
     font-weight: var(--fw-400);
     font-size: var(--fs-18);
@@ -699,12 +698,6 @@ cursor: pointer;
         justify-content: center;
         left: -100%;
         transition: all 400ms linear !important;
-    }
-
-    .fix {
-        position: fixed;
-        top: 0;
-        left: 0;
     }
 
     .left-0 {
