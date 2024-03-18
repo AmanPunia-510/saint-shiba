@@ -1,7 +1,7 @@
 let accord_items = document.querySelectorAll(".accordian-box");
 
 accord_items.forEach(items => {
-    const heading = items.querySelector(".heading");
+    const heading = items.querySelector(".heading-svg");
     const paragraph = items.querySelector(".accordian-p");
     const svg = items.querySelector(".accordian-svg");
 
