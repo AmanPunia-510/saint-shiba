@@ -682,11 +682,15 @@ table {
         align-items: center !important;
         justify-content: center;
         left: -100%;
+        transition: all 400ms linear;
+    }
+
+    .left-0{
+        left: 0;
     }
 
     .menubar {
-        position: fixed;
+        position: relative;
         z-index: 1;
-        right: 4px;
     }
 }

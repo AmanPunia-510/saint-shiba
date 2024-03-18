@@ -30,4 +30,8 @@ accord_items.forEach(items => {
 // navbar
 
 let navbar = document.querySelector(".navbar-items");
-let menubar = document.querySelector(".menubar");
+let menu = document.querySelector(".menubar");
+
+menu.addEventListener("click", () => {
+    navbar.classList.toggle("left-0");
+})
