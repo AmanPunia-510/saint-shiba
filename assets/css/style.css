@@ -232,7 +232,7 @@
     bottom: 0px;
     left: -114px;
     width: 22%;
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
 }
 
@@ -428,8 +428,16 @@
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
     border: 1px solid;
     border-color: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
-    padding: 16px;
     border-radius: 10px;
+}
+
+.heading-svg {
+    padding: 16px;
+}
+
+.accordian-p {
+    padding: 0 16px;
+    padding-bottom: 16px;
 }
 
 .section-4 {
@@ -575,6 +583,10 @@ tr:last-child td:last-child {
 
 .shadow-image {
     bottom: 0;
+}
+
+.pl-75 {
+    padding-left: 75px !important;
 }
 
 @media (min-width:320px) {
